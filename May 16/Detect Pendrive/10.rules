@@ -1,0 +1,1 @@
+ACTION=="add"		SUBSYSTEM=="usb"		PROGRAM="/usr/bin/python36 /root/Desktop/capture.py"
