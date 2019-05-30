@@ -1,4 +1,4 @@
-Operating System (OS) - Red Hat Enterprise Linux (RHEL) - Version 7.5, 8
+# Operating System (OS) - Red Hat Enterprise Linux (RHEL) - Version 7.5, 8
 
 OS - Multiple programs creating an environment.
 
@@ -12,12 +12,12 @@ Two ways of interaction with a computer:
 CLI - Command Line Interface (Using only commands and syntax.)
 GUI - Graphical User Interface (Using images, animations, graphs, etc.)
 
-Linux Commands
+# Linux Commands
 
 	- which firefox # gives where the given program is located on the os
 	- gedit /usr/bin/firefox # opens the code of the given file in an editor. Here the path of firefox is given, so it will open firefox's code.
 
-Miscellaneous:
+#Miscellaneous:
 Password Request --> Server --send--> Tokens (cookies) ---save-locally--> HDD
 --> If cookies are exposed data breaches can take place
 
@@ -26,7 +26,7 @@ To access a device in computer we need its drivers to be installed.
 Softwares are ditributed in the forms of the packages, when they are to be installed these packages are used.
 In windows packages are in the form of .exe files and in Red Hat packages are in the form of .rpm files.
 
-Linux Commands
+# Linux Commands
 
 	- rpm -q -f /usr/bin/date # q-> query f-> file, this command gives details of the files which are queried about.
 	- rpm -e firefox # e -> erase. This commannd erases the files of the program firefox.
@@ -47,7 +47,7 @@ Linux Commands
 	- echo 'apple pie' | festival --tts # apple pie is spoke in the speaker via text to speech command.
 --> We use Ctrl+D to exit live interpreter like python on CLI mode.
 
-Python
+# Python
 
 --> REPL - Read Evaluate Print Loop
 - type(x) # gives the data type of x variable
